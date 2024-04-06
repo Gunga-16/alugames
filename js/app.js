@@ -29,8 +29,6 @@ function alterarStatus(id) {
     contarEExibirJogosAlugados();
 }
 
-
-// Inicializa a contagem considerando que os jogos já começam alugados
 document.addEventListener('DOMContentLoaded', function() {
     jogosAlugados = document.querySelectorAll('.dashboard__item__img--rented').length;
     contarEExibirJogosAlugados();
@@ -41,5 +39,4 @@ function ordenarNumeros(a, b, c) {
     console.log(`Números ordenados: ${numerosOrdenados.join(', ')}`);
 }
 
-// Exemplo de uso:
-ordenarNumeros(3, 1, 5); // Deve exibir "Números ordenados: 1, 3, 5"
+ordenarNumeros(99, 0, -1); 
